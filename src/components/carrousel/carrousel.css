@@ -1,0 +1,39 @@
+.carrousel {
+    width: 80%;
+    margin: 40px 10%;
+}
+
+.carrousel_img {
+    border-radius: 15px;
+    height: 415px;
+    object-fit: cover;
+    width: 100%
+}
+.fleche {
+    position: absolute;
+    width: 46.68px;
+    height: 79.2px;
+    z-index: 1;
+}
+
+.carrousel_flecheG {
+    margin-left: 25px;
+    top: 50%;
+}
+
+.carrousel_flecheD {
+    margin-right: 25px;
+    right: 10%;
+    top: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .carrousel {
+        margin: 40px 2.5%;
+        width: 95%;
+    }
+
+    .carrousel_flecheD {
+        right: 2.5%;
+    }
+}
