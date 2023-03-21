@@ -21,17 +21,16 @@ nav {
     text-decoration: none;
 }
 
-.header_lien:hover {
+.header_lien_souligne:hover {
     color: #ff6060;
 }
 
-.header_lien_acceuil:hover {
+.header_lien_souligne {
     border-bottom: 1px solid #ff6060;
 }
 
-.header_lien_about:hover {
+.header_lien_vide {
     color: #ff6060;
-    border-bottom: 1px solid #ff6060;
 }
 
 @media screen and (max-width: 700px) {

@@ -27,6 +27,16 @@
     top: 50%;
 }
 
+.nbImg {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 700px) {
     .carrousel {
         margin: 40px 2.5%;

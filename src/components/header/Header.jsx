@@ -4,12 +4,14 @@ import Logo from '../../images/logo.png';
 import './header.css'
 
 const Header = () => {
+    const currentRoute = window.location.pathname;
+
     return (
         <header>
             <img src={Logo} alt='Logo' />
             <nav>
-                <NavLink to='/' className='header_lien header_lien_acceuil'>Acceuil</NavLink>
-                <NavLink to='/about' className='header_lien header_lien_about'>A propos</NavLink>
+                <NavLink to='/' className={currentRoute === '/' ? 'header_lien header_lien_souligne' : 'header_lien header_lien_vide'}>Acceuil</NavLink>
+                <NavLink to='/about' className={currentRoute === '/about' ? 'header_lien header_lien_souligne' : 'header_lien header_lien_vide'}>A propos</NavLink>
             </nav>
         </header>
     );

@@ -20,6 +20,7 @@ const Carousel = ({ images }) => {
         <img className='fleche carrousel_flecheG' onClick={cliqueAv} src={flecheGauche} alt="flechegauche"/>
         <img className='carrousel_img' src={images[currentImageIndex]} alt="carousel" />
         <img className='fleche carrousel_flecheD' onClick={cliqueAp} src={flecheDroite} alt="flechedroite"/>
+        <p className='nbImg'>{currentImageIndex + 1} / {images.length}</p>
       </div>
     );
   };
