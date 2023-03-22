@@ -1,6 +1,7 @@
 .carrousel {
     width: 80%;
     margin: 40px 10%;
+    position: relative;
 }
 
 .carrousel_img {
@@ -18,18 +19,18 @@
 
 .carrousel_flecheG {
     margin-left: 25px;
-    top: 50%;
+    top: 40%;
 }
 
 .carrousel_flecheD {
     margin-right: 25px;
-    right: 10%;
-    top: 50%;
+    right: 0%;
+    top: 40%;
 }
 
 .nbImg {
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
